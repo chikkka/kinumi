@@ -14,6 +14,7 @@
     <!-- カスタムcss -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>ママのためのサロン やます | 福岡市博多区にあるお子さん連れ大歓迎♪ママのためのサロンです。</title>
     <link rel="icon" href="./assetts/img/fabicon.ico" type="image/x-icon">
 
@@ -77,7 +78,7 @@
             </div>
           </li>
           <li class="nav_pc_list">
-            <a href="#sns">
+            <a href="index.html#sns">
               <img src="./assetts/img/sns.png" alt="sns">
             </a>
           </li>
@@ -87,7 +88,7 @@
             </a>
           </li>
           <li class="nav_pc_list">
-            <a href="#access">
+            <a href="index.html#access">
               <img src="./assetts/img/access.png" alt="access">
             </a>
           </li>
@@ -113,6 +114,7 @@
             <li><a href="./menu.html">&nbsp&nbsp Menu</a></li>
             <li><a href="index.html#sns">&nbsp&nbsp Sns</a></li>
             <li><a href="./contact.html">&nbsp&nbsp Contact</a></li>
+            <li><a href="index.html#access">&nbsp&nbsp Access</a></li>
             <li><a href="#">&nbsp&nbsp facebook</a></li>
             <li><a href="#">&nbsp&nbsp instagram</a></li>
           </ul>
@@ -130,6 +132,128 @@
     <main>
       <!----------------- main ------------------->
       <h1 id="mainTitleMenu">ママのためのサロン&nbsp;&nbspやます</h1>
+      <h3 id="contact">ご予約・お問い合わせ</h3>
+      <form action="send_email.php" method="POST" id="contactWrap">
+        <!-- お名前 -->
+        <label>お名前(必須)</label>
+        <input type="text" id="name" name="user_name" reqired>
+        <br>
+
+        <!-- 電話番号 -->
+        <label>電話番号(必須)</label>
+        <input type="tel" id="phone" name="user_phone" reqired>
+        <br>
+
+        <!-- メールアドレス -->
+        <label>メールアドレス</label>
+        <input type="email" id="email" name="user_email">
+        <br>
+
+        <!-- 予約希望日 -->
+        <label>ご予約希望日(必須)</label>
+        <input type="date" id="date" name="date" reqired>
+        <br>
+
+        <!-- 予約希望時間 -->
+        <label>ご希望のお時間(必須)</label>
+        <input type="time" id="time" name="time" reqired>
+        <br>
+
+        <!-- 希望メニュー -->
+        <label id="requesMenu">ご希望の施術メニュー( 複数選択可 )</label>
+        <fieldset>
+          <legend>facial</legend>
+          <label>
+            <input type="checkbox" id="menuFacial" name="sonic">超音波ソニック
+          </label>
+          <label>
+            <input type="checkbox" id="menuFacial" name="ion">イオンスチームフェイシャルマッサージ
+          </label>
+          <label>
+            <input type="checkbox" id="menuFacial" name="sonic-ion">超音波ソニック＋スチームフェイシャルマッサージ
+          </label>
+          <label>
+            <input type="checkbox" id="menuFacial" name="poration">ポレーション（選べるトリートメントパック付き）
+          </label>
+          <label>
+            <input type="checkbox" id="menuFacial" name="sphere">3Dスフィア
+          </label>
+          <label>
+            <input type="checkbox" id="menuFacial" name="cray">クレイマスク
+          </label>
+          <label>
+            <input type="checkbox" id="menuFacial" name="monitor">スキンケアモニター
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>body</legend>
+          <label>
+            <input type="checkbox" id="menuBody" name="all70">全身(70min)
+          </label>
+          <label>
+            <input type="checkbox" id="menuBody" name="upperbody">上半身(40min)
+          </label>
+          <label>
+            <input type="checkbox" id="menuBody" name="lowerbody">下半身(30min)
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>head</legend>
+          <label>
+            <input type="checkbox" id="menuHead" name="head60">60min
+          </label>
+          <label>
+            <input type="checkbox" id="menuHead" name="head25">25min
+          </label>
+          <label>
+            <input type="checkbox" id="menuHead" name="facialoption">facial option
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>online facial</legend>
+          <label>
+            <input type="checkbox" id="menuOnline" name="online-sphere">3Dスフィア
+          </label>
+          <label>
+            <input type="checkbox" id="menuOnline" name="online-massage">マッサージ
+          </label>
+          <label>
+            <input type="checkbox" id="menuOnline" name="online-sphere-massage">3Dスフィア+マッサージ
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>bridal</legend>
+          <label>
+            <input type="checkbox" id="menuBridal" name="bridal">ブライダル(カウンセリング込み)
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>make</legend>
+          <label>
+            <input type="checkbox" id="menuMake" name="adultmakeup">大人メイク
+          </label>
+          <label>
+            <input type="checkbox" id="menuMake" name="kidsmakeup">キッズメイク
+          </label>
+          <label>
+            <input type="checkbox" id="menuMake" name="makelesson40">メイクレッスン(40min)
+          </label>
+          <label>
+            <input type="checkbox" id="menuMake" name="makelesson80">メイクレッスン(80min)
+          </label>
+        </fieldset>
+
+        <!-- メッセージ -->
+        <label id="otherContacts">その他のメッセージ・お問い合わせ</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit" id="button">送信</button>
+      </form>
     </main>
     <!-----------------------footer ------------------------>
     <footer>
