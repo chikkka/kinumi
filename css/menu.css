@@ -2,21 +2,13 @@ body{
   width: 100%;
 }
 
-#mainTitleMenu{
-  font-size: 2rem;
-    /* フォントを’ab-kirigirisu’に指定する */
-    font-family: ab-kirigirisu, sans-serif;
-    /* 文字間隔を狭める */
-    letter-spacing: -8px;
-    /* background-color: aqua; */
-} 
-
 .menu_content{
+  width: 70%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: 4rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #effectItem{

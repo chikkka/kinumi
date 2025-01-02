@@ -200,7 +200,7 @@ header{
 /* -----------------ハンバーガーナビゲーションend--------------- */
 
 /* -----------------main start------------------------------ */
-#mainTitle{
+.mainTitle{
   /* フォントを’ab-kirigirisu’に指定する */
   font-family: ab-kirigirisu, sans-serif;
   font-style: normal;

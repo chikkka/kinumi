@@ -1,6 +1,6 @@
 /* -----タブレット向け---画面幅が768pxを下回った時に適用される----- */
 @media screen and (max-width: 768px){ 
-  #mainTitle{
+  .mainTitle{
     font-size: 1.6rem;
   }
   #salonIcon{

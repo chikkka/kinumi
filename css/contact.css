@@ -1,16 +1,8 @@
-#mainTitleMenu{
-  font-size: 2rem;
-    /* フォントを’ab-kirigirisu’に指定する */
-    font-family: ab-kirigirisu, sans-serif;
-    /* 文字間隔を狭める */
-    letter-spacing: -8px;
-    /* background-color: aqua; */
-} 
-
 #contact{
   width: 20rem;
-  text-align: center;
+  color: #D6BDA5;
   font-size: 1.2rem;
+  text-align: center;
   margin: 3rem auto 3rem auto;
 }
 
