@@ -93,7 +93,6 @@ header{
   height: 14rem;
   position: relative;
   display: none;
-  background-color: aqua;
 }
 
 #navHum{
@@ -212,6 +211,32 @@ header{
   /* background-color: aqua; */
 }
 
+#subTitle{
+  width: 30%;
+  height: 15%;
+  padding-top: 2rem;
+  background-color: rgb(253, 246, 236, 0.7);
+  border-radius: 20px;
+  position: absolute;
+  top: 12rem;
+  right: 3%;
+}
+
+#subTitle h2{
+  width: 100%;
+  height: auto;
+  /* フォントを’ab-kirigirisu’に指定する */
+  font-family: ab-kirigirisu, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.large_text{
+  font-size: 1.6rem;
+}
+
 .image_gallery{
   width: 100%;
   display: flex;
@@ -277,27 +302,40 @@ article{
 }
 
 #conceptDescription{
-    /* -------木のイラスト----- */
-    background-image: url("../assetts/img/tree.png");
-    background-repeat: no-repeat;
-    background-position: calc(95%) calc(0%);
-    background-size: 8rem;
-  /* background-color: coral; */
+  display: flex;
+  position: relative;
 }
-#salonTxt{
-  font-size: 1.2rem;
-  /* テキストを中央に寄せる */
+
+#salonTxtWrap{
+  width: 50%;
+  height: auto;
+  margin-top: 8%;
+  margin-left: 5%;
   text-align: center;
-  margin-top: 50px;
-  /* background-color: seagreen; */
+}
+
+#salonTxt{
+  color: #9e7f63;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+#threeImg{
+  width: 20%;
+  height: auto;
+}
+
+#threeImg img{
+  width: 100%;
 }
 
 #conceptImg{
   width: 50%;
   height: auto;
-  margin: 0;
-  text-align: center;
-  /* background-color: violet; */
+}
+
+#conceptImg img{
+  width: 100%;
 }
 
 .image_container{
@@ -336,7 +374,7 @@ article{
   margin: 0;
   background-image: url("../assetts/img/flower.png");
   background-repeat: no-repeat;
-  background-size: 8rem;
+  background-size: 6rem;
   background-position: calc(90%) calc(60%);
   /* background-color: chocolate; */
 }
@@ -505,7 +543,7 @@ transition: color 0.3s ease; /* アニメーションの速度と効果 */
 }
 
 #instagram img{
-  width: 20%;
+  width: 13%;
   height: auto;
 }
 
@@ -526,7 +564,7 @@ transition: color 0.3s ease; /* アニメーションの速度と効果 */
   }
 
 #facebook img{
-  width: 20%;
+  width: 13%;
   height: auto;
 }
 
@@ -547,7 +585,7 @@ transition: color 0.3s ease; /* アニメーションの速度と効果 */
   }
 
 #ameblo img{
-  width: 20%;
+  width: 13%;
   height: auto;
 }
 

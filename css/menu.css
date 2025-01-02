@@ -17,16 +17,15 @@ body{
   margin-top: 4rem;
   margin-right: 2rem;
   margin-left: 2rem;
-  /* background-color: pink; */
 }
 
 #effectItem{
-  width: 100%;
+  width: 80%;
   height: 2.5rem;
   background-color: rgb(240, 233, 187);
   border-radius: 10px;
   padding-top: 0.5rem;
-  margin-bottom: 16rem;
+  margin: 0 auto 16rem auto;
   display: flex;
   justify-content: space-around;
   /* background-color: skyblue; */

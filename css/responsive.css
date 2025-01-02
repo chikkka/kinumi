@@ -1,5 +1,8 @@
 /* -----タブレット向け---画面幅が768pxを下回った時に適用される----- */
 @media screen and (max-width: 768px){ 
+  #mainTitle{
+    font-size: 1.6rem;
+  }
   #salonIcon{
     width: 10%;
   }
@@ -10,5 +13,42 @@
     display: block;
     width: 0;
     height: 0;
+  }
+  
+  /*---------- TOPメイン画像 ---------*/
+  #subTitle{
+    width: 30%;
+    height: 10%;
+    padding-top: 1.5rem;
+    position: absolute;
+    top: 7rem;
+    right: 3%;
+  }
+  
+  #subTitle h2{
+    font-size: 0.7rem;
+  }
+  
+  .large_text{
+    font-size: 1rem;
+  }
+  /*---------------------------------*/
+
+  #salonTxt{
+    font-size: 1rem;
+  }
+
+  #effectItem{
+    width: 100%;
+    font-size: 80%;
+  }
+
+  #effectItem.fixed{
+    width: 90%;
+    font-size: 80%;
+  }
+
+  #footerNav{
+    width: 90%;
   }
 }
