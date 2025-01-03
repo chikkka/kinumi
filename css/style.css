@@ -412,7 +412,7 @@ article{
   justify-content: center;
   background-image: url("../assetts/img/bird-2.png");
   background-repeat: no-repeat;
-  background-size: 8rem;
+  background-size: 7rem;
   background-position: calc(5%) calc(100%);
   position: relative;
 }
@@ -448,8 +448,8 @@ article{
   display: flex;
   background-image: url("../assetts/img/bird-3.png");
   background-repeat: no-repeat;
-  background-size: 30%;
-  background-position: calc(100%) calc(80%);
+  background-size: 20%;
+  background-position: calc(100%) calc(100%);
 }
 
 #therapistImg3{
