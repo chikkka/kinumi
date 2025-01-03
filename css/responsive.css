@@ -34,8 +34,15 @@
   }
   /*---------------------------------*/
 
-  #salonTxt{
+  /* ------------- concept ---------- */
+
+  .content_ttl{
     font-size: 1rem;
+    letter-spacing: -3px;
+  }
+
+  #salonTxt{
+    font-size: 0.7rem;
   }
 
 
@@ -54,17 +61,49 @@
   }
 
 
-#therapistTxt1 #therapistTxt2{
+  #therapistTxt1,
+  #therapistTxt2,
+  #therapistTxt3 p{
   font-size: 0.7rem;
   }
 
+  /* ----------sns------------------- */
+  #snsWrap p{
+    font-size: 0.7rem;
+  }
+
+  #instagram h3,
+  #facebook h3,
+  #amebablog h3{
+    font-size: 0.7rem;
+  }
+/* ----------access------------- */
+  #accessContent p{
+    font-size: 0.7rem;
+  }
+
+  /* ------------footer------------ */
+
+  #footerContent{
+    margin-top: 10%;
+  }
+
+  #footerSalonIcon{
+    width: 7%;
+    margin-bottom: -8%;
+  }
+
   #footerNav{
-    width: 100%;
+    width: 90%;
   }
 
   .footer_li{
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  #copy{
+    font-size: 0.5rem;
   }
 
 }

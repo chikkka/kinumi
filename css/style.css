@@ -100,6 +100,7 @@ header{
   height: auto;
   display: block;
   background-color: #FFFfff;
+  border-radius: 15px;
   position: fixed;
   top: 0;
   right: -300px;
@@ -136,6 +137,7 @@ header{
   display: block;
   text-decoration: none;
   color: #6c6059;
+  border-radius: 15px;
   font-size: 0.8rem;
   padding: 0 0 1rem 0;
   margin: 0;
@@ -364,13 +366,13 @@ article{
 
 #therapistContent1{
   width: 100%;
-  margin-top: 5%;
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   background-image: url("../assetts/img/flower.png");
   background-repeat: no-repeat;
   background-size: 6rem;
-  background-position: calc(90%) calc(60%);
+  background-position: calc(100%) calc(110%);
   /* background-color: chocolate; */
 }
 
@@ -381,6 +383,7 @@ article{
 
 #therapistImg1 img{
   width: 100%;
+  border-radius: 15px;
   /* background-color: darkcyan; */
 }
 
@@ -410,7 +413,7 @@ article{
   background-image: url("../assetts/img/bird-2.png");
   background-repeat: no-repeat;
   background-size: 8rem;
-  background-position: calc(10%) calc(80%);
+  background-position: calc(5%) calc(100%);
   position: relative;
 }
 
@@ -434,47 +437,42 @@ article{
 #therapistImg2 img{
   width: 100%;
   height: auto;
+  border-radius: 15px;
   /* background-color: deepskyblue; */
 }
 
 #therapistContent3{
   width: 100%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 20%;
   display: flex;
-  justify-content: center;
   background-image: url("../assetts/img/bird-3.png");
   background-repeat: no-repeat;
-  background-size: 12rem;
-  background-position: calc(100%) calc(100%);
+  background-size: 30%;
+  background-position: calc(100%) calc(80%);
 }
 
 #therapistImg3{
-  width: 100%;
+  width: 50%;
   height: auto;
   text-align: center;
-  /* background-color: #D6BDA5; */
 }
 
 #therapistImg3 img{
-  width: 20rem;
+  width: 70%;
   height: auto;
-  /* background-color: tomato; */
+  border-radius: 15px;
 }
 
 #therapistTxt3{
-  width: 100%;
+  width: 50%;
   height: auto;
-  padding-top: 10%;
-  padding-right: 2%;
-  /* background-color: hotpink; */
 }
 
 #therapistTxt3 p{
-  width: 100%;
+  width: 90%;
   height: auto;
-  font-size: small;
-  /* background-color: aqua; */
+  font-size: 0.9rem;
 }
 
 /* --------------sns--------------------------------- */
