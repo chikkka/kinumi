@@ -1,7 +1,7 @@
 /* -----タブレット向け---画面幅が768pxを下回った時に適用される----- */
 @media screen and (max-width: 768px){ 
   .mainTitle{
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: -3px;
   }
   #salonIcon{
@@ -61,11 +61,20 @@
     font-size: 80%;
   }
 
+  /* ----------therapist ------------- */
+
 
   #therapistTxt1,
   #therapistTxt2,
   #therapistTxt3 p{
   font-size: 0.7rem;
+  }
+
+  #therapistContent3{
+    background-image: url("../assetts/img/bird-3.png");
+    /* background-repeat: no-repeat; */
+    background-size: 35%;
+    background-position: calc(32%) calc(100%);
   }
 
   /* ----------sns------------------- */
@@ -95,7 +104,7 @@
   }
 
   #footerNav{
-    width: 36rem;
+    width: 98%;
   }
 
   .footer_li{
@@ -104,7 +113,7 @@
   }
 
   .footer_sns_icon li{
-    width: 2rem;
+    width: 33%;
   }
 
   #copy{
