@@ -282,9 +282,8 @@ header{
   /* フォントを’ab-kirigirisu’に指定する*/
   font-family: ab-kirigirisu, sans-serif;
   /* 文字間隔を狭める */
-  letter-spacing: -4px;
+  letter-spacing: -5px;
   font-style: normal;
-  font-weight: 300;
   color: #D6BDA5;
 }
 
@@ -294,16 +293,17 @@ article{
 
 /* -----------------concept----------------------- */
 #conceptWrap{
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
   margin-left: calc(-50vw + 50%);
-  padding: 100px 0 100px;
+  padding: 50px 0 50px 0;
   /* background-color: skyblue; */
 }
 
 #conceptDescription{
   display: flex;
   position: relative;
+  margin-top: 5%;
 }
 
 #salonTxtWrap{
@@ -362,16 +362,11 @@ article{
   padding: 100px 0 100px 0;
 }
 
-#therapistContent1,
-#therapistContent3{
-  display: flex;
-  justify-content: center;
-}
-
 #therapistContent1{
   width: 100%;
-  padding: 100px;
-  margin: 0;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
   background-image: url("../assetts/img/flower.png");
   background-repeat: no-repeat;
   background-size: 6rem;
@@ -392,9 +387,11 @@ article{
 #therapistTxt1{
   width: 100%;
   height: auto;
+  font-size: 0.9rem;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
+  line-height: 2;
   /* background-color: hotpink; */
 }
 
@@ -407,35 +404,31 @@ article{
 
 #therapistContent2{
   width: 100%;
-  padding: 100px;
+  margin-top: 10%;
   display: flex;
   justify-content: center;
-  margin: 0;
   background-image: url("../assetts/img/bird-2.png");
   background-repeat: no-repeat;
   background-size: 8rem;
-  background-position: calc(20%) calc(70%);
+  background-position: calc(10%) calc(80%);
   position: relative;
-  /* background-color: cadetblue; */
 }
 
 #therapistTxt2{
   width: 50%;
   height: auto;
+  padding-top: 8%;
+  font-size: 0.9rem;
+  line-height: 2;
   text-align: center;
-  position: absolute;
-  right: 30%;
-  top: 1%;
-  margin-top: 5%;
-  /* background-color: darkorchid; */
 }
 
 #therapistImg2{
-  width: 20%;
+  width: 50%;
   height: auto;
-  position: absolute;
+  /* position: absolute;
   top: 24%;
-  right: 20%;
+  right: 20%; */
   /* background: darkred; */
 }
 #therapistImg2 img{
@@ -447,22 +440,24 @@ article{
 #therapistContent3{
   width: 100%;
   height: auto;
-  padding: 6rem 2rem;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
   background-image: url("../assetts/img/bird-3.png");
   background-repeat: no-repeat;
   background-size: 12rem;
   background-position: calc(100%) calc(100%);
-  /* background-color: aquamarine; */
 }
 
 #therapistImg3{
-  width: 30%;
+  width: 100%;
   height: auto;
+  text-align: center;
   /* background-color: #D6BDA5; */
 }
 
 #therapistImg3 img{
-  width: 100%;
+  width: 20rem;
   height: auto;
   /* background-color: tomato; */
 }
@@ -470,8 +465,8 @@ article{
 #therapistTxt3{
   width: 100%;
   height: auto;
-  padding-top: 5%;
-  padding-left: 5%;
+  padding-top: 10%;
+  padding-right: 2%;
   /* background-color: hotpink; */
 }
 
@@ -714,10 +709,6 @@ transition: color 0.3s ease; /* アニメーションの速度と効果 */
 }
 
 
-
-
-
-
 table{ 
   border: 1px solid black;
 }
@@ -733,11 +724,6 @@ table{
   background-color: #FFFCEF;
   margin: 50px;
 }
-
-/* .news_content{
-  background-color: blueviolet;
-  display: flex;
-} */
 
 .news_content section{
   padding : 50px;

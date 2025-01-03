@@ -53,7 +53,18 @@
     font-size: 80%;
   }
 
-  #footerNav{
-    width: 90%;
+
+#therapistTxt1 #therapistTxt2{
+  font-size: 0.7rem;
   }
+
+  #footerNav{
+    width: 100%;
+  }
+
+  .footer_li{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
 }
