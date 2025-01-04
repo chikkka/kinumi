@@ -131,120 +131,120 @@
 
     <main>
       <!----------------- main ------------------->
-      <h1 id="mainTitleMenu">ママのためのサロン&nbsp;&nbspやます</h1>
+      <h1 class="mainTitle">ママのためのサロン&nbsp;&nbspやます</h1>
       <h3 id="contact">ご予約・お問い合わせ</h3>
       <form action="send_email.php" method="POST" id="contactWrap">
         <!-- お名前 -->
-        <label>お名前(必須)</label>
+        <label class="contact_name">お名前(必須)</label>
         <input type="text" id="name" name="user_name" reqired>
         <br>
 
         <!-- 電話番号 -->
-        <label>電話番号(必須)</label>
+        <label class="contact_phone">電話番号(必須)</label>
         <input type="tel" id="phone" name="user_phone" reqired>
         <br>
 
         <!-- メールアドレス -->
-        <label>メールアドレス</label>
+        <label class="contact_email">メールアドレス</label>
         <input type="email" id="email" name="user_email">
         <br>
 
         <!-- 予約希望日 -->
-        <label>ご予約希望日(必須)</label>
+        <label class="contact_date">ご予約希望日(必須)</label>
         <input type="date" id="date" name="date" reqired>
         <br>
 
         <!-- 予約希望時間 -->
-        <label>ご希望のお時間(必須)</label>
+        <label class="contact_time">ご希望のお時間(必須)</label>
         <input type="time" id="time" name="time" reqired>
         <br>
 
         <!-- 希望メニュー -->
-        <label id="requesMenu">ご希望の施術メニュー( 複数選択可 )</label>
+        <label id="requestMenu">ご希望の施術メニュー( 複数選択可 )</label>
         <fieldset>
           <legend>facial</legend>
-          <label>
-            <input type="checkbox" id="menuFacial" name="sonic">超音波ソニック
+          <label class="choices" >
+            <input type="checkbox" id="menuSonic" class="choices_input" name="sonic">超音波ソニック
+          </label> 
+          <label class="choices" >
+            <input type="checkbox" id="menuIon" class="choices_input" name="ion">イオンスチームフェイシャルマッサージ
           </label>
-          <label>
-            <input type="checkbox" id="menuFacial" name="ion">イオンスチームフェイシャルマッサージ
+          <label class="choices" >
+            <input type="checkbox" id="menuSonicIon" class="choices_input" name="sonic-ion">超音波ソニック＋スチームフェイシャルマッサージ
           </label>
-          <label>
-            <input type="checkbox" id="menuFacial" name="sonic-ion">超音波ソニック＋スチームフェイシャルマッサージ
+          <label class="choices" >
+            <input type="checkbox" id="menuPoration" class="choices_input" name="poration">ポレーション（選べるトリートメントパック付き）
           </label>
-          <label>
-            <input type="checkbox" id="menuFacial" name="poration">ポレーション（選べるトリートメントパック付き）
+          <label class="choices" >
+            <input type="checkbox" id="menuSphere" class="choices_input" name="sphere">3Dスフィア
           </label>
-          <label>
-            <input type="checkbox" id="menuFacial" name="sphere">3Dスフィア
+          <label class="choices" >
+            <input type="checkbox" id="menuCray" class="choices_input" name="cray">クレイマスク
           </label>
-          <label>
-            <input type="checkbox" id="menuFacial" name="cray">クレイマスク
-          </label>
-          <label>
-            <input type="checkbox" id="menuFacial" name="monitor">スキンケアモニター
+          <label class="choices" >
+            <input type="checkbox" id="menuMonitor" class="choices_input" name="monitor">スキンケアモニター
           </label>
         </fieldset>
 
         <fieldset>
           <legend>body</legend>
-          <label>
-            <input type="checkbox" id="menuBody" name="all70">全身(70min)
+          <label class="choices">
+            <input type="checkbox" id="menuAll70" class="choices_input" name="all70">全身(70min)
           </label>
-          <label>
-            <input type="checkbox" id="menuBody" name="upperbody">上半身(40min)
+          <label class="choices" >
+            <input type="checkbox" id="menuUpperBody" class="choices_input" name="upperbody">上半身(40min)
           </label>
-          <label>
-            <input type="checkbox" id="menuBody" name="lowerbody">下半身(30min)
+          <label class="choices" >
+            <input type="checkbox" id="menuLowerBody" class="choices_input" name="lowerbody">下半身(30min)
           </label>
         </fieldset>
 
         <fieldset>
           <legend>head</legend>
-          <label>
-            <input type="checkbox" id="menuHead" name="head60">60min
+          <label class="choices" >
+            <input type="checkbox" id="menuHead60" class="choices_input" name="head60">60min
           </label>
-          <label>
-            <input type="checkbox" id="menuHead" name="head25">25min
+          <label class="choices" >
+            <input type="checkbox" id="menuHead25" class="choices_input" name="head25">25min
           </label>
-          <label>
-            <input type="checkbox" id="menuHead" name="facialoption">facial option
+          <label class="choices" >
+            <input type="checkbox" id="menuHeadFacialOption" class="choices_input" name="facialoption">facial option
           </label>
         </fieldset>
 
         <fieldset>
           <legend>online facial</legend>
-          <label>
-            <input type="checkbox" id="menuOnline" name="online-sphere">3Dスフィア
+          <label class="choices" >
+            <input type="checkbox" id="menuOnlineSphere" class="choices_input" name="online-sphere">3Dスフィア
           </label>
-          <label>
-            <input type="checkbox" id="menuOnline" name="online-massage">マッサージ
+          <label class="choices" >
+            <input type="checkbox" id="menuOnlineMassage" class="choices_input" name="online-massage">マッサージ
           </label>
-          <label>
-            <input type="checkbox" id="menuOnline" name="online-sphere-massage">3Dスフィア+マッサージ
+          <label class="choices" >
+            <input type="checkbox" id="menuOnlineSphereMassage" class="choices_input" name="online-sphere-massage">3Dスフィア+マッサージ
           </label>
         </fieldset>
 
         <fieldset>
           <legend>bridal</legend>
-          <label>
-            <input type="checkbox" id="menuBridal" name="bridal">ブライダル(カウンセリング込み)
+          <label class="choices" >
+            <input type="checkbox" id="menuBridal" class="choices_input" name="bridal">ブライダル(カウンセリング込み)
           </label>
         </fieldset>
 
         <fieldset>
           <legend>make</legend>
-          <label>
-            <input type="checkbox" id="menuMake" name="adultmakeup">大人メイク
+          <label class="choices" >
+            <input type="checkbox" id="menuAdultMake" class="choices_input" name="adultmakeup">大人メイク
           </label>
-          <label>
-            <input type="checkbox" id="menuMake" name="kidsmakeup">キッズメイク
+          <label class="choices" >
+            <input type="checkbox" id="menuKidsMake" class="choices_input" name="kidsmakeup">キッズメイク
           </label>
-          <label>
-            <input type="checkbox" id="menuMake" name="makelesson40">メイクレッスン(40min)
+          <label class="choices" >
+            <input type="checkbox" id="menuMakeLesson40" class="choices_input" name="makelesson40">メイクレッスン(40min)
           </label>
-          <label>
-            <input type="checkbox" id="menuMake" name="makelesson80">メイクレッスン(80min)
+          <label class="choices" >
+            <input type="checkbox" id="menuMakeLesson80" class="choices_input" name="makelesson80">メイクレッスン(80min)
           </label>
         </fieldset>
 
