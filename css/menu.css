@@ -65,6 +65,13 @@ body{
   transition: color 0.3s ease; /* アニメーションの速度と効果 */
 }
 
+.text_block_sp,
+.menu_img_sp{
+  display: none;
+}
+
+
+
 /* -----メニューバー（body）--------- */
 /* 下線を擬似要素で作成 */
 #effectItemBody a::after {
