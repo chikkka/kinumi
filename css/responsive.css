@@ -1,5 +1,10 @@
-/* -----タブレット向け---画面幅が768pxを下回った時に適用される----- */
+/* -----タブレット向け---画面幅が480pxを下回った時に適用される----- */
 @media screen and (max-width: 768px){ 
+
+}
+
+/* -----スマホ向け---画面幅が768pxを下回った時に適用される----- */
+@media screen and (max-width: 480px){ 
   .mainTitle{
     font-size: 1rem;
     letter-spacing: -3px;
@@ -70,11 +75,16 @@
   font-size: 0.7rem;
   }
 
+  #therapistContent2{
+    background-image: url("../assetts/img/bird-2.png");
+    background-size: 20%;
+    background-position: calc(10%) calc(100%);
+  }
+
   #therapistContent3{
     background-image: url("../assetts/img/bird-3.png");
-    /* background-repeat: no-repeat; */
     background-size: 35%;
-    background-position: calc(32%) calc(100%);
+    background-position: calc(32%) calc(97%);
   }
 
   /* ----------sns------------------- */
@@ -120,4 +130,54 @@
     font-size: 0.5rem;
   }
 
+  /* ------------- menuページ ------------- */
+
+  .menu_content{
+    margin-top: 1rem;
+  }
+
+  #effectItem{
+    width: 100%;
+    height: 2rem;
+    margin: 0 auto 10% auto;
+    border-radius: 0;
+  }
+
+  #effectItem p{
+    font-size: 70%;
+  }
+
+  .circle{
+    width: 18%;
+    height: 18%;
+  }
+
+  .menu_ttl{
+    width: 20%;
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+
+  .menu_facial,
+  .menu_option,
+  .menu_body,
+  .menu_head,
+  .menu_online_facial,
+  .menu_bridal,
+  .menu_make{
+    padding-left: 1.3rem;  /*左右に余白をつける */
+    padding-right: 1.3rem; /*左右に余白をつける */
+  }
+
+  .treatment_summary,
+  .treatment_price{
+    font-size: 0.8rem;
+  }
+
+  .menu_wrap,
+  .treatment_summary_parts,
+  .price{
+    font-size: 0.7rem;
+  }
+ 
 }

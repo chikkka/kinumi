@@ -180,7 +180,6 @@ body{
   transition: color 0.3s ease; /* アニメーションの速度と効果 */
 }
 
-
 .menu_ttl_wrap{
   width: 23rem;
   height: auto;
@@ -188,13 +187,11 @@ body{
   margin-right: auto;
   display: flex;
   justify-content: space-around;
-  /* background-color: darkseagreen; */
 }
 
 .circle{
   width: 6rem;
   height: auto;
-  /* background-color: moccasin; */
 }
 
 .menu_ttl{
@@ -226,20 +223,18 @@ table{
   height: auto;
   border: 0;
   margin-top: 3rem;
-  /* background-color: chocolate; */
 }
 
 tr{
   width: 100%;
   height: auto;
-  /* background-color: darkorange; */
 }
 
-th{
+.treatment_summary,
+.treatment_price{
   font-size: 0.95rem;
   padding-top: 2rem;
   padding-bottom: 5rem;
-  /* background-color: antiquewhite; */
 }
 
 td{
@@ -261,7 +256,6 @@ td{
   height: auto;
   text-align: right;
   color: #D6BDA5;
-  /* background-color: blue; */
 }
 
 .menu_wrap{
@@ -283,7 +277,6 @@ td{
 
 .treatment_summary_parts{
   font-size: 0.96rem;
-  
 }
 
 .treatment_summary_parts a{
