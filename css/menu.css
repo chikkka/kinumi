@@ -3,12 +3,13 @@ body{
 }
 
 .menu_content{
-  width: 70%;
+  width: 90%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-top: 4rem;
   margin-right: auto;
   margin-left: auto;
+  /* background-color: #4bb7bb; */
 }
 
 #effectItem{
@@ -241,7 +242,8 @@ tr{
 .treatment_price{
   font-size: 0.95rem;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
+  /* background-color: #b1dadc; */
 }
 
 td{
@@ -284,6 +286,10 @@ td{
 
 .treatment_summary_parts{
   font-size: 0.96rem;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 5px;
+  text-decoration-color: #b1dadc;
 }
 
 .treatment_summary_parts a{
@@ -325,9 +331,8 @@ td{
 .add_info{
   width: 100%;
   height: auto;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
-  font-size: 0.8rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -339,7 +344,7 @@ td{
 }
 
 #coupon p{
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #9a8172;
   background-color: #f8f4bde7;
   display: inline-block;
