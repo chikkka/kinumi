@@ -25,7 +25,11 @@
   #subTitle{
     width: 32%;
     height: auto;
-    padding-top: 0;
+
+    display: grid; /* グリッドを有効化 */
+    place-items: center; /* 水平方向・垂直方向を同時に中央に揃える */
+    text-align: center;
+
     position: absolute;
     top: 5rem;
     right: 3%;
@@ -33,6 +37,7 @@
   
   #subTitle h2{
     font-size: 0.7rem;
+    background-color: aquamarine;
   }
   
   .large_text{
