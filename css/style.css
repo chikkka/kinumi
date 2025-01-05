@@ -588,9 +588,9 @@ transition: color 0.3s ease; /* アニメーションの速度と効果 */
 }
 
 #map{
-  width: 100%;
-  text-align: center;
-  margin: 10% 0 10% 0;
+  width: 80%;
+  height: auto;
+  margin: 10% auto 10% auto;
 }
 
 #map img{
