@@ -43,7 +43,7 @@
   /* ------------- concept ---------- */
 
   .content_ttl{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     letter-spacing: -3px;
   }
 
@@ -89,13 +89,13 @@
 
   /* ----------sns------------------- */
   #snsWrap p{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   #instagram h3,
   #facebook h3,
   #ameblo h3{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 /* ----------access------------- */
   #accessContent p{
@@ -199,10 +199,11 @@
   .menu_wrap,
   .price{
     font-size: 0.7rem;
+    padding-right: 2rem;
   }
 
   .treatment_summary_parts{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   .menu_img,
@@ -230,6 +231,10 @@
     margin: 0 auto 0 auto;
   }
 
+
+  .add_info{
+    font-size: 0.7rem;
+  }
 
   #coupon p{
     font-size: 0.7rem;

@@ -328,12 +328,14 @@ td{
 }
 
 .add_info{
-  width: 100%;
+  width: 90%;
   height: auto;
   font-size: 0.9rem;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #coupon{
