@@ -101,6 +101,15 @@
   #accessContent p{
     font-size: 0.7rem;
   }
+  #map{
+    width: 80%;
+    height: auto;
+  }
+
+  #map iframe{
+    width: 100%;
+    height:auto;
+  }
 
   /* ------------footer------------ */
 
