@@ -132,6 +132,11 @@
 
   /* ------------- menuページ ------------- */
 
+  #navHum.fixed{
+    position: fixed;
+    top: 10rem;
+  }
+
   .menu_content{
     margin-top: 1rem;
   }
@@ -140,13 +145,20 @@
     width: 100%;
     height: 2rem;
     margin: 0 auto 10% auto;
-    /* border-radius: 0; */
   }
 
-  #effectItem p{
-    font-size: 70%;
+  #effectItem.fixed{
+    width: 100%;
   }
 
+  
+  #effectItem.fixed.toggle-btn{
+    position: fixed;
+    top: 3rem;
+    right: 1rem;
+    z-index: 100;
+  }
+  
   .circle{
     width: 18%;
     height: 18%;

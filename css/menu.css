@@ -21,7 +21,6 @@ body{
   margin: 0 auto 16rem auto;
   display: flex;
   justify-content: space-around;
-  /* background-color: skyblue; */
 }
 
 /* -------スクロールしても上部に引っかかるメニューバー-------- */
