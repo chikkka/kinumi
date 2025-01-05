@@ -24,8 +24,8 @@
   /*---------- TOPメイン画像 ---------*/
   #subTitle{
     width: 32%;
-    height: 8%;
-    padding-top: 4.5%;
+    height: auto;
+    padding-top: 0;
     position: absolute;
     top: 5rem;
     right: 3%;
