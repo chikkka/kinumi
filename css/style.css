@@ -154,7 +154,7 @@ header{
   width: 30px;
   height: 30px;
   position: fixed;
-  top: 5%;
+  top: 4%;
   right: 1rem;
   z-index: 100;
   cursor: pointer;
@@ -251,6 +251,7 @@ header{
   overflow: hidden;
 }
 
+
 .image_slide_pc img{
   width: 100%;
   height: auto;
@@ -338,6 +339,15 @@ article{
 
 #conceptImg img{
   width: 100%;
+    /* マスクを設定*/
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+
+    /* マスクのその他の設定 */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
 }
 
 .image_container{
@@ -384,7 +394,21 @@ article{
 #therapistImg1 img{
   width: 100%;
   border-radius: 15px;
-  /* background-color: darkcyan; */
+}
+
+/* ---セラピスト画像の縁をぼかす---- */
+#therapistImg1 img,
+#therapistImg2 img,
+#therapistImg3 img{
+  /* マスクを設定 */
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0) 100%);
+
+    /* マスクのその他の設定 */
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-size: cover;
 }
 
 #therapistTxt1{
