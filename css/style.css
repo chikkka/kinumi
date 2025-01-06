@@ -364,17 +364,7 @@ article{
   opacity: 0;
 }
 
-/* --------------therapist-------------------------- */
-
-#therapistWrap{
-  width: 100vw;
-  box-sizing: border-box;
-  margin-top: 10%;
-  margin-left: calc(-50vw + 50%);
-  /* background-color: slateblue; */
-}
-
-#therapistContent1{
+#conceptContent2{
   width: 100%;
   margin-top: 10%;
   display: flex;
@@ -384,6 +374,32 @@ article{
   background-size: 6rem;
   background-position: calc(100%) calc(110%);
   /* background-color: chocolate; */
+}
+
+#conceptContent2,
+#conceptContent3{
+  width: 100%;
+  height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#salonTxtWrap3{
+  width: 100%;
+  height: auto;
+}
+
+#salonTxt3{
+  font-size: 0.7rem;
+}
+/* --------------therapist-------------------------- */
+
+#therapistWrap{
+  width: 100vw;
+  box-sizing: border-box;
+  margin-top: 10%;
+  margin-left: calc(-50vw + 50%);
+  /* background-color: slateblue; */
 }
 
 #therapistImg1{
@@ -411,7 +427,7 @@ article{
   mask-size: cover;
 }
 
-#therapistTxt1{
+#salonTxtWrap2{
   width: 100%;
   height: auto;
   font-size: 0.9rem;
@@ -422,7 +438,7 @@ article{
   /* background-color: hotpink; */
 }
 
-#therapistTxt1 p{
+#salonTxtWrap2 p{
   position: absolute;
   left: 10%;
   bottom: 40%;
